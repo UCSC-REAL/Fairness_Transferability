@@ -1,4 +1,4 @@
-# Fair Transferability Subject to Bounded Distribution Shift"
+# Fair Transferability Subject to Bounded Distribution Shift
 
 (Neurips 2022)
 
