@@ -96,3 +96,12 @@ Run states/main.py
 │   ├── *_default.pdf            -- source data per state
 │   ├── totals.csv               -- source data
 ```
+# Citation
+
+@article{chen2022fairness,
+  title={Fairness Transferability Subject to Bounded Distribution Shift},
+  author={Chen, Yatong and Raab, Reilly and Wang, Jialu and Liu, Yang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2022}
+}
