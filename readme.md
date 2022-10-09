@@ -1,7 +1,6 @@
-# Anonymized code to supplement
+# Fair Transferability Subject to Bounded Distribution Shift"
 
-"Fair Transferability Subject to Bounded Distribution Shift"
-(submission to Neurips 2022)
+(Neurips 2022)
 
 # Dependencies
 
