@@ -1,6 +1,9 @@
 # Fair Transferability Subject to Bounded Distribution Shift
 
-(Neurips 2022)
+This repository accompanies the paper [Fair Transferability Subject to Bounded Distribution Shift](https://arxiv.org/abs/2206.00129) accepted by Neurips 2022. - [Yatong Chen](https://github.com/YatongChen/), [Reilly Raab](https://reillyraab.com/), [Jialu Wang](https://people.ucsc.edu/~jwang470/), [Yang Liu](http://www.yliuu.com/).
+
+# Abstract: 
+Given an algorithmic predictor that is "fair" on some source distribution, will it still be fair on an unknown target distribution that differs from the source within some bound? In this paper, we study the transferability of statistical group fairness for machine learning predictors (i.e., classifiers or regressors) subject to bounded distribution shift, a phenomenon frequently caused by user adaptation to a deployed model or a dynamic environment. Herein, we develop a bound characterizing such transferability, flagging potentially inappropriate deployments of machine learning for socially consequential tasks. We first develop a framework for bounding violations of statistical fairness subject to distribution shift, formulating a generic upper bound for transferred fairness violation as our primary result. We then develop bounds for specific worked examples, adopting two commonly used fairness definitions (i.e., demographic parity and equalized odds) for two classes of distribution shift (i.e., covariate shift and label shift). Finally, we compare our theoretical bounds to deterministic models of distribution shift as well as real-world data.
 
 # Dependencies
 
@@ -97,6 +100,8 @@ Run states/main.py
 │   ├── totals.csv               -- source data
 ```
 # Citation
+
+If you want to cite our paper, please cite the following format:
 
 ```
 @article{chen2022fairness,
